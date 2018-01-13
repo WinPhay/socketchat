@@ -1,0 +1,19 @@
+html
+	head
+		title= "Socket_Chat"
+		style
+			include style.css
+	body
+		ul(class="pages")
+			li(class="chat page")
+				div(class="chatArea")
+					ul(class="messages")
+						input(class="inputMessage",placeholder="Type here...")
+			li(class="login page")
+				div(class="form")
+					h3(class="Title") What is your nickname?
+					input(class="usernameInput",type="text",maxlength="14")
+		script(src='/socket.io/socket.io.js')
+		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+		script
+			include main.js

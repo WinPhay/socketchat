@@ -1,0 +1,18 @@
+{
+  "name": "socket_chat",
+  "version": "1.0.0",
+  "description": "another socket using chat nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "saw win phay",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "pug": "latest",
+    "socket.io": "latest",
+    "http": "latest"
+  }
+}
